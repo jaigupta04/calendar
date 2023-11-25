@@ -48,7 +48,7 @@ To run tests, run the following command
   const date = require('date-check')
 
   console.log(date(4,7,2003))
+  // Output - FRIDAY
 ```
 
-#### Output 
-FRIDAY
+
