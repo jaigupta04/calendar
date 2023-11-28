@@ -9,7 +9,7 @@ Install Package using
 ```bash
   npm install date-check
 ```
-    
+      
 ## Usage
 
 ```javascript
