@@ -17,29 +17,6 @@ const { returnDay } = require('date-check')
 
 ```
 
-
-
-## Run Locally
-
-Go to your project
-
-```bash
-  cd <your project file address>
-```
-
-Install package/dependencies
-
-```bash
-  npm install date-check
-```
-
-Add following code to your project
-
-```bash
-  const date = require('date-check')
-```
-
-
 ## Running Tests
 
 To run tests, run the following command
