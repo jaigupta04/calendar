@@ -12,7 +12,6 @@
   "keywords": [
   ],
   "scripts": {
-    "build": "node build/index.js",
     "test": "jest --coverage --testPathPattern=test/",
     "lint": "npx eslint --fix src build test"
   },
