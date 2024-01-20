@@ -13,42 +13,18 @@ Install Package using
 ## Usage
 
 ```javascript
-const date = require('date-check')
+const { returnDay } = require('date-check')
 
 ```
-
-
-
-## Run Locally
-
-Go to your project
-
-```bash
-  cd <your project file address>
-```
-
-Install package/dependencies
-
-```bash
-  npm install date-check
-```
-
-Add following code to your project
-
-```bash
-  const date = require('date-check')
-```
-
 
 ## Running Tests
 
 To run tests, run the following command
 
-```bash
-  const date = require('date-check')
+```javascript
+  const { returnDay } = require('date-check')
 
-  console.log(date(4,7,2003))
-  // Output - FRIDAY
+  console.log(returnDay(4,7,2003)) // Output - FRIDAY
 ```
 
 
