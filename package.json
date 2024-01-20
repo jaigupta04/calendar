@@ -1,12 +1,42 @@
 {
   "name": "date-check",
-  "version": "1.2.0",
-  "description": "",
-  "main": "calendar.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "Jai Gupta",
+  "version": "2.0.0",
+  "description": "Returns day for any date",
+  "main": "src/index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaigupta04/calendar.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+  ],
+  "scripts": {
+    "build": "node build/index.js",
+    "test": "jest --coverage --testPathPattern=test/",
+    "lint": "npx eslint --fix src build test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "8.54.x",
+    "jest": "29.7.x"
+  },
+  "eslintConfig": {
+    "env": {
+      "es2021": true,
+      "jest": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": "latest"
+    },
+    "rules": {
+      "no-constant-condition": "warn",
+      "no-useless-escape": "warn"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
