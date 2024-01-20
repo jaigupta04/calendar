@@ -21,7 +21,7 @@ const { returnDay } = require('date-check')
 
 To run tests, run the following command
 
-```bash
+```javascript
   const { returnDay } = require('date-check')
 
   console.log(returnDay(4,7,2003)) // Output - FRIDAY
