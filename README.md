@@ -13,7 +13,7 @@ Install Package using
 ## Usage
 
 ```javascript
-const date = require('date-check')
+const { returnDay } = require('date-check')
 
 ```
 
